@@ -1,5 +1,5 @@
 /*
-Created on Wednesday Oct 17 23:39:52 2024
+Created on Thursday Oct 17 23:39:52 2024
 Author: @righCirith
 Module 3: Conditionals && Logic
 Project 1: Magic Eight Ball
