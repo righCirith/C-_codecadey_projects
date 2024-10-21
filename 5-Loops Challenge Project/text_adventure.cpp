@@ -42,6 +42,12 @@ int main() {
 
     // capture user choice
     std::cin >> decision1;
+
+    // input validation
+    while (decision1 < 1 || decision1 > 2) {
+        std::cout << "Invalid input. Please choose 1 or 2: ";
+        std::cin >> decision1;
+    }
     
     std::cout << "  .     .    .     .       \n"
                  "     .      .     .     .     .\n"
@@ -54,13 +60,6 @@ int main() {
                  "     .       /   _    \\\\     _  /      |\n"
                  "             /   / \\\\    \\\\   / \\\\      |\n"
                  "            /___/___\\\\____\\\\_/___\\\\______|\n";
-
-
-    // input validation
-    while (decision1 < 1 || decision1 > 2) {
-        std::cout << "Invalid input. Please choose 1 or 2: ";
-        std::cin >> decision1;
-    }
 
     
     if (decision1 == 1) {     // 1) Investigate the noise
