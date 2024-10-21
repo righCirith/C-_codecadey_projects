@@ -16,7 +16,6 @@ Project: Build Text Adventure
     5. Optional: Add ASCII art.
 */
 
-
 #include <iostream>
 
 int main() {
@@ -63,7 +62,6 @@ int main() {
         std::cin >> decision1;
     }
 
-
     
     if (decision1 == 1) {     // 1) Investigate the noise
         std::cout << "He steps outside, the cold biting at his skin. In the moonlight, he sees footprints leading away from his camp large, unusual footprints. Suddenly, he spots a hulking figure in the distance: the Snowman, a legendary creature said to roam these mountains.\n";
@@ -71,7 +69,7 @@ int main() {
         int decision1_5;
         // Desicion point 2
         std::cout << "--Jack Either--\n";
-        std::cout << "1) Follow the footrprints to learn more.\n";
+        std::cout << "1) Follow the footprints to learn more.\n";
         std::cout << "2) Return to his tent and barricade himself\n";
         std::cout << "Choice: ";
 
@@ -85,19 +83,67 @@ int main() {
     }       
         
     
-        if (decision1_5 == 1) { // 1) Follow the prints to learn more
+        if (decision1_5 == 1) { // 1) Follow the footprints to learn more
             std::cout << "The tracks lead him to a hidden cave. Inside, he discovers ancient carvings and relics but also realizes he's not alone the Snowman emerges from the shadows.\n";
             // ending 1: Jack escapes
             std::cout << "Thinking quickly, Jack distracts the creature with a flare from his pack. He escapes back to his camp, heart racing, and makes it back to civilization, sharing the legend of the Snowman and his harrowing tale.\n";
+            std::cout << "You escaped; now you are telling everyone about what you just saw.";
+            std::cout << "         ~         ~~          __\n"
+                 "           _T      .,,.    ~--~ ^^ \n"
+                 "     ^^   // \\                    ~\n"
+                 "          ][O]    ^^      ,-~ ~\n"
+                 "       /''-I_I         _II____\n"
+                 "    __/_  /   \\ ______/ ''   /'\\_,__\n"
+                 "    | II--'''' \\,--:--..,_/,.-{ },\n"
+                 "    ; '/__\\,.--';|   |[] .-.| O{ _ }\n"
+                 "    :' |  | []  -|   ''--:.;[,.'\\,/ \n"
+                 "    '  |[]|,.--'' '',   ''-,.    |\n";
+
+
         } else { // 2) Return to his tent and barricade himself
             std::cout << "He barricades himself, trying to stay calm. The noises grow louder, and soon the Snowman is clawing at his tent, trying to get in.\n";
             //ending 2 Jack is killed
             std::cout << "The creature breaks through, and in a panic, Jack fights back. But it's no use; the Snowman is too strong, and Jack meets a tragic end, lost to the frozen wilderness.\n";
+            std::cout << "YOU DIED\n";
+
+            std::cout << "          ,-=-.       ______    \n"
+              << "         /  +  \\     />----->  \n"
+              << "         | ~~~ |    // -/- /    \n"
+              << "         |R.I.P|   //  /  /     \n"
+              << "    \\vV,,|_____|V,//_____/VvV,v,\n";
         }
+    
+    
+    
+    
     } else { // 2) Stay in the tent and ignore it
         std::cout << "The noises eventually fade, and he falls asleep. In the morning, he finds the Snowman sitting quietly outside his tent, seemingly uninterested in harm.\n";
         // ending 3 Jack confronts the creature
         std::cout << "Summoning his courage, Jack confronts the creature with a makeshift weapon. In a desperate struggle, he manages to outsmart the Snowman, using the environment to his advantage. He escapes, leaving the creature behind, forever haunted by his encounter.\n";
+        std::cout << "You defeat the creature....? at least you just escaped!!\n";
+        std::cout << "                                             ,--,  ,.-.\n"
+              << "               ,                   \\       '-,-`,'-.' | ._\n"
+              << "              /|           \\    ,   |\\         }  )/  / `-,',\n"
+              << "              [ ,          |\\  /|   | |        /  \\|  |/`  ,`\n"
+              << "              | |       ,.`  `,` `, | |  _,...(   (      .',\n"
+              << "              \\  \\  __ ,-` `  ,  , `/ |,'      Y     (   /_L\\\n"
+              << "               \\  \\_\\`,   ` , ,  /  |         )         _,/\n"
+              << "                \\  '  `  ,_ _`_,-,<._.<        /         /\n"
+              << "                 ', `>.,`  `  `   ,., |_      |         /\n"
+              << "                   \\/`  `,   `   ,`  | /__,.-`    _,   `\\\n"
+              << "               -,-..\\  _  \\  `  /  ,  / `._) _,-\\`       \\\n"
+              << "                \\_,,.) /\\    ` /  / ) (-,, ``    ,        |\n"
+              << "               ,` )  | \\_\\       '-`  |  `(               \\\n"
+              << "              /  /```(   , --, ,' \\   |`<`    ,            |\n"
+              << "             /  /_,--`\\   <\\  V /> ,` )<_/)  | \\      _____)\n"
+              << "       ,-, ,`   `   (_ ,\\ \\    |   /) / __/  /   `----`\n"
+              << "      (-, \\           ) \\ ('_.-._)/ /,`    /\n"
+              << "      | /  `          `/ \\\\ V   V, /`     /\n"
+              << "   ,--\\(        ,     <_/`\\\\     ||      /\n"
+              << "  (   ,``-     \\/|         \\-A.A-`|     /\n"
+              << " ,>,_ )_,..(    )\\          -,,_-`  _--`\n"
+              << "(_ \\|`   _,/_  /  \\_            ,--`\n";
+        
     }
 
     return 0;
