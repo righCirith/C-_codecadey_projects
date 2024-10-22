@@ -1,7 +1,7 @@
 /*
 Created on Monday Oct 21 18:09:10 2024
 Author: @righCirith
-Module 6: Vectors
+Module 7: Functions
 Challenge 1: Introduction
 */
 
