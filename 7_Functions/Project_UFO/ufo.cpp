@@ -28,7 +28,7 @@ int main() {
         }
 
         if(guess == true) {
-            std::cout << "Incorrect! The tractor beam pulls the person in further.\n";
+            std::cout << "Correct!!.\n";
         } else {
             std::cout << "Incorrect! The tractor beam pulls the person in further.\n";
             incorrect.push_back(letter);
