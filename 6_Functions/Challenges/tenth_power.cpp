@@ -1,7 +1,7 @@
 /*
 Created on Monday Oct 21 18:21:13 2024
 Author: @righCirith
-Module 7: Functions
+Module 6: Functions
 Challenge 3: Tenth Power
 */
 

@@ -1,7 +1,7 @@
 /*
 Created on Monday Oct 21 18:38:12 2024
 Author: @righCirith
-Module 7: Functions
+Module 6: Functions
 Challenge 4: First Three Multiples
 */
 
