@@ -1,7 +1,7 @@
 /*
 Created on Monday Oct 21 18:09:10 2024
 Author: @righCirith
-Module 7: Functions
+Module 6: Functions
 Challenge 1: Introduction
 */
 
