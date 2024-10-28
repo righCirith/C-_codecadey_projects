@@ -1,7 +1,7 @@
 /*
 Created on Monday Oct 21 11:32:18 2024
 Author: @righCirith
-Module 6: Vectors
+Module 5: Vectors
 Project: Whale Talk
 */
 
